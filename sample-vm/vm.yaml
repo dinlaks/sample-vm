@@ -1,6 +1,7 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
+  namespace: vm-testing
   annotations:
   labels:
     app: rhel9-git
